@@ -1,0 +1,24 @@
+/* Cambia el color de fondo del <body> a lightblue */
+body {
+    background-color: lightblue;
+}
+
+/* Modifica los títulos (<h1>, <h2>, etc.) para que su color de fuente sea rojo. */
+h1, h2 {
+    color: red;
+}
+
+/* Dar formato a la imagen */
+img {
+    width: 400px;
+    height: 300px;
+    display: block;      /* necesario para que margin auto funcione */
+    margin: auto;        /* centra la imagen */
+}
+
+#btnTop {
+position: fixed;
+right: 16px;
+bottom: 16px;
+padding: 10px 14px;
+}
